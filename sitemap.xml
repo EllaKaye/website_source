@@ -2,98 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/EllaKaye/website_source/package-dev.html</loc>
-    <lastmod>2023-05-18T06:00:14.523Z</lastmod>
+    <lastmod>2023-05-18T08:45:34.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/EllaKaye/website_source/blog.html</loc>
+    <lastmod>2023-05-18T08:45:38.098Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/EllaKaye/website_source/privacy-policy.html</loc>
-    <lastmod>2023-05-18T06:00:15.659Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/EllaKaye/website_source/blog/blog7.html</loc>
-    <lastmod>2023-05-18T06:00:16.275Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/EllaKaye/website_source/blog/blog5.html</loc>
-    <lastmod>2023-05-18T06:00:17.283Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/EllaKaye/website_source/blog/blog13.html</loc>
-    <lastmod>2023-05-18T06:00:17.835Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/EllaKaye/website_source/blog/blog6.html</loc>
-    <lastmod>2023-05-18T06:00:18.231Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/EllaKaye/website_source/blog/blog9.html</loc>
-    <lastmod>2023-05-18T06:00:18.635Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/EllaKaye/website_source/blog/blog1.html</loc>
-    <lastmod>2023-05-18T06:00:19.023Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/EllaKaye/website_source/blog/blog2.html</loc>
-    <lastmod>2023-05-18T06:00:20.015Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/EllaKaye/website_source/blog/blog3.html</loc>
-    <lastmod>2023-05-18T06:00:20.727Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/EllaKaye/website_source/blog/blog10.html</loc>
-    <lastmod>2023-05-18T06:00:21.275Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/EllaKaye/website_source/blog/blog12.html</loc>
-    <lastmod>2023-05-18T06:00:21.703Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/EllaKaye/website_source/blog/blog14.html</loc>
-    <lastmod>2023-05-18T06:00:22.215Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/EllaKaye/website_source/blog/blog8.html</loc>
-    <lastmod>2023-05-18T06:00:23.343Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/EllaKaye/website_source/blog/blog11.html</loc>
-    <lastmod>2023-05-18T06:00:23.795Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/EllaKaye/website_source/blog/blog4.html</loc>
-    <lastmod>2023-05-18T06:00:24.587Z</lastmod>
+    <lastmod>2023-05-18T08:45:38.658Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/EllaKaye/website_source/education.html</loc>
-    <lastmod>2023-05-18T06:00:24.959Z</lastmod>
+    <lastmod>2023-05-18T08:45:39.046Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/EllaKaye/website_source/index.html</loc>
-    <lastmod>2023-05-18T06:00:25.351Z</lastmod>
+    <lastmod>2023-05-18T08:45:39.498Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/EllaKaye/website_source/community.html</loc>
-    <lastmod>2023-05-18T06:00:25.751Z</lastmod>
+    <lastmod>2023-05-18T08:45:39.970Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/EllaKaye/website_source/posts/blog7.html</loc>
+    <lastmod>2023-05-18T08:45:40.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/EllaKaye/website_source/posts/blog5.html</loc>
+    <lastmod>2023-05-18T08:45:41.858Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/EllaKaye/website_source/posts/blog13.html</loc>
+    <lastmod>2023-05-18T08:45:42.558Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/EllaKaye/website_source/posts/blog6.html</loc>
+    <lastmod>2023-05-18T08:45:43.019Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/EllaKaye/website_source/posts/blog9.html</loc>
+    <lastmod>2023-05-18T08:45:43.503Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/EllaKaye/website_source/posts/blog1.html</loc>
+    <lastmod>2023-05-18T08:45:43.963Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/EllaKaye/website_source/posts/blog2.html</loc>
+    <lastmod>2023-05-18T08:45:45.167Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/EllaKaye/website_source/posts/blog3.html</loc>
+    <lastmod>2023-05-18T08:45:46.043Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/EllaKaye/website_source/posts/blog10.html</loc>
+    <lastmod>2023-05-18T08:45:46.691Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/EllaKaye/website_source/posts/blog12.html</loc>
+    <lastmod>2023-05-18T08:45:47.207Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/EllaKaye/website_source/posts/blog14.html</loc>
+    <lastmod>2023-05-18T08:45:47.775Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/EllaKaye/website_source/posts/blog8.html</loc>
+    <lastmod>2023-05-18T08:45:49.143Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/EllaKaye/website_source/posts/blog11.html</loc>
+    <lastmod>2023-05-18T08:45:49.671Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/EllaKaye/website_source/posts/blog4.html</loc>
+    <lastmod>2023-05-18T08:45:50.647Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/EllaKaye/website_source/about.html</loc>
-    <lastmod>2023-05-18T06:00:26.335Z</lastmod>
+    <lastmod>2023-05-18T08:45:51.351Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/EllaKaye/website_source/conferences.html</loc>
-    <lastmod>2023-05-18T06:00:26.679Z</lastmod>
+    <lastmod>2023-05-18T08:45:51.779Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/EllaKaye/website_source/contribution.html</loc>
-    <lastmod>2023-05-18T06:00:27.043Z</lastmod>
+    <lastmod>2023-05-18T08:45:52.219Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/EllaKaye/website_source/workshops.html</loc>
-    <lastmod>2023-05-18T06:00:27.503Z</lastmod>
+    <lastmod>2023-05-18T08:45:52.739Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/EllaKaye/website_source/data.html</loc>
-    <lastmod>2023-05-18T06:00:27.999Z</lastmod>
+    <lastmod>2023-05-18T08:45:53.355Z</lastmod>
   </url>
 </urlset>
