@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Emma Rand and Mine Çetinkaya-Rundel">
-<meta name="dcterms.date" content="2021-05-06">
-<meta name="description" content="About the project to turn the Forwards Package Development workshop into a set of more flexible and accessible modules">
+<meta name="author" content="Di Cook">
+<meta name="dcterms.date" content="2017-11-20">
+<meta name="description" content="Girls Coding Workshop, Melbourne">
 
-<title>Forwards - Package Development Modules</title>
+<title>Forwards - Girls Coding Workshop, Melbourne</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +23,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -65,7 +99,15 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Forwards - Girls Coding Workshop, Melbourne">
+<meta property="og:description" content="Girls Coding Workshop, Melbourne">
+<meta property="og:image" content="https://github.com/EllaKaye/website_source/images/cupcakes.jpg">
+<meta property="og:site-name" content="Forwards">
+<meta name="twitter:title" content="Forwards - Girls Coding Workshop, Melbourne">
+<meta name="twitter:description" content="Girls Coding Workshop, Melbourne">
+<meta name="twitter:image" content="https://github.com/EllaKaye/website_source/images/cupcakes.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -75,10 +117,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="index.qmd" class="navbar-brand navbar-brand-logo">
+    <a href="../../posts/2017-11-20_girls-coding-workshop-melbourne/index.html" class="navbar-brand navbar-brand-logo">
     <img src="https://forwards.github.io/images/forwards.svg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="index.qmd">
+    <a class="navbar-brand" href="../../posts/2017-11-20_girls-coding-workshop-melbourne/index.html">
     <span class="navbar-title">Forwards</span>
     </a>
   </div>
@@ -89,27 +131,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../community.html" rel="" target="">
+    <a class="nav-link" href="../../community.html" rel="" target="">
  <span class="menu-text">Community</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../conferences.html" rel="" target="">
+    <a class="nav-link" href="../../conferences.html" rel="" target="">
  <span class="menu-text">Conferences</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../contribution.html" rel="" target="">
+    <a class="nav-link" href="../../contribution.html" rel="" target="">
  <span class="menu-text">Contribution</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../data.html" rel="" target="">
+    <a class="nav-link" href="../../data.html" rel="" target="">
  <span class="menu-text">Data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog.html" rel="" target="">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -118,15 +160,15 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-other">    
         <li>
-    <a class="dropdown-item" href="../workshops.html" rel="" target="">
+    <a class="dropdown-item" href="../../workshops.html" rel="" target="">
  <span class="dropdown-text">Workshops</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../package-dev.html" rel="" target="">
+    <a class="dropdown-item" href="../../package-dev.html" rel="" target="">
  <span class="dropdown-text">Package Development Workshop for women and other underrepresented groups</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../privacy-policy.html" rel="" target="">
+    <a class="dropdown-item" href="../../privacy-policy.html" rel="" target="">
  <span class="dropdown-text">Forwards Privacy Policy</span></a>
   </li>  
     </ul>
@@ -167,116 +209,69 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <div class="quarto-title-block"><div><h1 class="title">Girls Coding Workshop, Melbourne</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+                  <div>
+        <div class="description">
+          Girls Coding Workshop, Melbourne
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">education</div>
+                <div class="quarto-category">software</div>
+                <div class="quarto-category">community</div>
+                <div class="quarto-category">training</div>
+                <div class="quarto-category">teaching</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Di Cook </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 20, 2017</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#why-create-package-development-modules" id="toc-why-create-package-development-modules" class="nav-link active" data-scroll-target="#why-create-package-development-modules">Why create Package Development modules?</a></li>
-  <li><a href="#some-module-design-principles" id="toc-some-module-design-principles" class="nav-link" data-scroll-target="#some-module-design-principles">Some module design principles</a></li>
-  <li><a href="#our-progress" id="toc-our-progress" class="nav-link" data-scroll-target="#our-progress">Our Progress</a></li>
-  <li><a href="#online-workshops" id="toc-online-workshops" class="nav-link" data-scroll-target="#online-workshops">Online Workshops!</a></li>
-  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next steps</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Package Development Modules</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">community</div>
-    <div class="quarto-category">education</div>
-    <div class="quarto-category">software</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    About the project to turn the Forwards Package Development workshop into a set of more flexible and accessible modules
-  </div>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Emma Rand and Mine Çetinkaya-Rundel </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">May 6, 2021</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-</header>
-
-<p><img src="../images/blog/package-development-modules/pkg-dev.gif" class="img-fluid"></p>
-<section id="why-create-package-development-modules" class="level2">
-<h2 class="anchored" data-anchor-id="why-create-package-development-modules">Why create Package Development modules?</h2>
-<p>Forwards have delivered face-to-face one-day workshops in Package development, supported by a grant from the R Consortium, for several years. These are heavily based on the <a href="https://r-pkgs.org/">R packages</a> book by Hadley Wickham and Jenny Bryan. These have worked well but our reach is limited because only those with access to teaching facilities can deliver the teaching and only those able to attend a face-to-face workshop can benefit from it. This misses a lot of people! Recently, we have been modularising our materials into one hour long workshops that can be delivered online or in person. We hope this makes the material more usable to teachers and learners alike.</p>
-</section>
-<section id="some-module-design-principles" class="level2">
-<h2 class="anchored" data-anchor-id="some-module-design-principles">Some module design principles</h2>
-<p>By December we had begun work on our module design principles. Just like the face-to-face-workshops, the modules would teach package development using <code>devtools</code> in RStudio. Our aim is to provide workflows to help people get started rather than an exhaustive understanding of the details (you can see <a href="https://cran.r-project.org/doc/manuals/r-release/R-exts.html">Writing R Extensions</a> for that).</p>
-<p>We wanted the collection of modules to be relatively short (~1 hr), ‘stackable’ and easy for others to use. We thought each module should:</p>
-<ul>
-<li>be approximately 1hr</li>
-<li>be discrete (standalone) but link to other modules<br>
-</li>
-<li>have specified prerequisites and learning objectives<br>
-</li>
-<li>be a complete resource for teaching (a person should be able to teach themselves from the material) and include tutor notes</li>
-<li>have a set of Rmd slides with comprehensive alt text and speaker notes</li>
-<li>have slides with minimal content but detailed speaker notes<br>
-</li>
-<li>use live coding, (minimise ‘lecturing’); include additional exercises for the speedy</li>
-</ul>
-</section>
-<section id="our-progress" class="level2">
-<h2 class="anchored" data-anchor-id="our-progress">Our Progress</h2>
-<p>In January, <a href="https://twitter.com/minebocek">Mine</a> and <a href="https://twitter.com/er13_r">Emma</a> set about developing a <a href="https://github.com/forwards/workshops/blob/master/package-dev-modules/slides/module-template.Rmd">module template</a> and the first three modules. We limited tickets to 40 per workshop to enable us provide enough trouble-shooting help and allow some discussion.</p>
-<p>The slide template uses <a href="https://github.com/yihui/xaringan">xaringan</a>, <a href="https://github.com/gadenbuie/xaringanthemer">xaringanthemer</a> and <a href="https://github.com/gadenbuie/xaringanExtra">xaringanExtra</a>.</p>
-<p>The three modules developed are:</p>
-<ol type="1">
-<li><a href="https://forwards.github.io/workshops/package-dev-modules/slides/01-packages-in-a-nutshell/packages-in-a-nutshell.html#1">Packages in a nutshell</a> which covers where packages come from, where they live on your computer, package states and package components</li>
-<li><a href="https://forwards.github.io/workshops/package-dev-modules/slides/02-setting-up-system/setting-up-system.html#1">Setting up your system</a> which covers set up for developing an version controlled R package using RStudio, Git and GitHub</li>
-<li><a href="https://forwards.github.io/workshops/package-dev-modules/slides/03-your-first-package/your-first-package.html#1">Your first package</a> which walks you through making a minimal version controlled package linked to a remote repository on GitHub using the <code>devtools</code> approach.</li>
-</ol>
-</section>
-<section id="online-workshops" class="level2">
-<h2 class="anchored" data-anchor-id="online-workshops">Online Workshops!</h2>
-<p>We delivered our first three modules over consecutive days in February (15th, 16th and 17th) to a great bunch of people. There a total of 51 different people taking the modules and we were expecting most to do all three. However, only 19 chose to do all three and 21 people did just one. Perhaps a modular approach helps people tailor training to their needs and availability?</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/blog/package-development-modules/regist_venn.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">venn diagram of registrations for the three modules shows</figcaption>
-</figure>
-</div>
-<p>We’re delighted that at least one of our participants, <a href="https://orcid.org/0000-0002-2973-6279">Melissa Wong</a>, has now released a package on CRAN! The package, <a href="https://cran.r-project.org/web/packages/pomcheckr/index.html">pomcheckr</a>, implements the method described at <a href="https://stats.idre.ucla.edu/r/dae/ordinal-logistic-regression/">UCLA Statistical Consulting</a> for checking if the proportional odds assumption holds for a cumulative logit model.</p>
-</section>
-<section id="next-steps" class="level2">
-<h2 class="anchored" data-anchor-id="next-steps">Next steps</h2>
-<p>The modules we are working on now are <strong>Package Documentation</strong> and <strong>Package Testing</strong>. We also want to refine our first three modules then record them when we deliver them next. Watch this space for the next set of workshops! But if you want to use the materials yourself, please go ahead! And feel free to get in touch about doing that.</p>
 
 
-</section>
+<p><img src="../../images/cupcakes.jpg" class="img-fluid"></p>
+<p>The first girls R coding workshop was held at the Kathleen Symes library in Melbourne, Nov Oct 28, 2017. The girls learned about tidy data concepts, wrangling data tools, and built a shiny app to explore standardised test data from the 2015 OECD Programme for International Student Achievement. One of the apps developed can be viewed at <a href="https://t.co/zlw3HGzOaR">https://t.co/zlw3HGzOaR</a>.</p>
+<p>And we had lamingtons, upside down R cupcakes (R downunder) for morning tea, and pizzas for lunch.</p>
+<p><img src="../../images/Melb_HS.jpg" class="img-fluid"> <img src="../../images/Melb_HS2.jpg" class="img-fluid"></p>
+<p>Keep an eye on <a href="https://forwards.github.io/edu/">https://forwards.github.io/edu/</a> for announcements about more workshops.</p>
 
-</main> <!-- /main -->
+
+<!-- -->
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -471,6 +466,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -624,7 +670,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Girls Coding Workshop, Melbourne"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Di Cook"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span><span class="co"> ["education","software", "community","training", "teaching"]</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2017-11-20</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "Girls Coding Workshop, Melbourne"</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="al">![](../../images/cupcakes.jpg)</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>The first girls R coding workshop was held at the Kathleen Symes library in Melbourne, Nov Oct 28, 2017. The girls learned about tidy data concepts, wrangling data tools, and built a shiny app to explore standardised test data from the 2015 OECD Programme for International Student Achievement. One of the apps developed can be viewed at <span class="co">[</span><span class="ot">https://t.co/zlw3HGzOaR</span><span class="co">](https://t.co/zlw3HGzOaR)</span>.</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>And we had lamingtons, upside down R cupcakes (R downunder) for morning tea, and pizzas for lunch.</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="al">![](../../images/Melb_HS.jpg)</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="al">![](../../images/Melb_HS2.jpg)</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>Keep an eye on <span class="co">[</span><span class="ot">https://forwards.github.io/edu/</span><span class="co">](https://forwards.github.io/edu/)</span> for announcements about more workshops. </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
